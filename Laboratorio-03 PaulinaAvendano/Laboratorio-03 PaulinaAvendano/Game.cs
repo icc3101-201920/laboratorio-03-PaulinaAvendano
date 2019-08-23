@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Laboratorio_03_PaulinaAvendano
 {
-    public class Game
+    public abstract class Game
     {
         //Atributos
         private Player[] players;

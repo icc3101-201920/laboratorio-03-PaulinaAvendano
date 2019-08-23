@@ -15,10 +15,14 @@ namespace Laboratorio_03_PaulinaAvendano
 
         public List<Card> Cards { get => cards; set => cards = value; }
 
-        public void AddCombatCard(CombatCard combatCard) { throw new NotImplementedException(); }
-        public void AddSpecialCard(SpecialCard specialCard) { throw new NotImplementedException(); }
-        public void DestroyCombatCard(int cardId) { throw new NotImplementedException(); }
-        public void DestroySpecialCard(int cardId) { throw new NotImplementedException(); }
+        public void AddCombatCard(CombatCard combatCard)
+        {
+            cards.Add(combatCard);
+        }
+        public void AddSpecialCard(SpecialCard specialCard)
+        {
+            cards.Add(specialCard);
+        }
         public void Shuffle()
         {
             throw new NotImplementedException();
